@@ -1,2 +1,14 @@
-﻿  accesorios.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
-  app_compra.vcxproj -> C:\Users\johnychiroy\Source\Repos\Proyecto-programacion1\x64\Debug\app_compra.exe
+﻿  accesorios.cpp
+  cocina.cpp
+  Compras.cpp
+  electronicos.cpp
+  factura.cpp
+C:\Users\0000\source\repos\Proyecto-Programaci-n-I\app_compra\conexion.h(20,26): warning C4129: 'S': secuencia de escape de carácter no reconocida
+  herramientas.cpp
+  hogar.cpp
+  inicio.cpp
+  MyForm.cpp
+C:\Users\0000\source\repos\Proyecto-Programaci-n-I\app_compra\MyForm.cpp(1,10): fatal error C1083: No se puede abrir el archivo incluir: 'MyForm.h': No such file or directory
+  utilesescolares.cpp
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Generando código...

@@ -148,16 +148,19 @@ namespace appcompra {
 			this->label1->ForeColor = System::Drawing::Color::White;
 			this->label1->Location = System::Drawing::Point(22, 126);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(155, 76);
+			this->label1->Size = System::Drawing::Size(146, 76);
 			this->label1->TabIndex = 10;
-			this->label1->Text = L"Televisor Samsung\r\n      85\' 4K UHD\r\n\r\n    Precio: Q14,000";
+			this->label1->Text = L" LUZ LED SMART \r\n   STARTER KIT\r\n\r\n Precio: Q302.00\r\n";
 			// 
 			// pictureBox1
 			// 
 			this->pictureBox1->BackColor = System::Drawing::Color::Transparent;
+			this->pictureBox1->ErrorImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.ErrorImage")));
+			this->pictureBox1->ImageLocation = L"C:\\Mis programas\\Proyecto-Programaci-n-I-main\\imagenes\\productos\\accesorios";
 			this->pictureBox1->Location = System::Drawing::Point(19, 3);
 			this->pictureBox1->Name = L"pictureBox1";
 			this->pictureBox1->Size = System::Drawing::Size(161, 114);
+			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox1->TabIndex = 6;
 			this->pictureBox1->TabStop = false;
 			// 
@@ -189,9 +192,12 @@ namespace appcompra {
 			// pictureBox3
 			// 
 			this->pictureBox3->BackColor = System::Drawing::Color::Transparent;
+			this->pictureBox3->ErrorImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox3.ErrorImage")));
+			this->pictureBox3->ImageLocation = L"C:\\Mis programas\\Proyecto-Programaci-n-I-main\\imagenes\\productos\\accesorios";
 			this->pictureBox3->Location = System::Drawing::Point(21, 3);
 			this->pictureBox3->Name = L"pictureBox3";
 			this->pictureBox3->Size = System::Drawing::Size(161, 114);
+			this->pictureBox3->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox3->TabIndex = 8;
 			this->pictureBox3->TabStop = false;
 			// 
@@ -199,14 +205,14 @@ namespace appcompra {
 			// 
 			this->label3->AutoSize = true;
 			this->label3->BackColor = System::Drawing::Color::Transparent;
-			this->label3->Font = (gcnew System::Drawing::Font(L"Arial", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->label3->Font = (gcnew System::Drawing::Font(L"Arial", 11.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label3->ForeColor = System::Drawing::Color::White;
 			this->label3->Location = System::Drawing::Point(25, 126);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(155, 76);
+			this->label3->Size = System::Drawing::Size(166, 54);
 			this->label3->TabIndex = 12;
-			this->label3->Text = L"Televisor Samsung\r\n      85\' 4K UHD\r\n\r\n    Precio: Q14,000";
+			this->label3->Text = L"MICROFONO PRIMUS\r\n\r\n   Precio: Q755.00";
 			// 
 			// panel3
 			// 
@@ -236,9 +242,12 @@ namespace appcompra {
 			// pictureBox2
 			// 
 			this->pictureBox2->BackColor = System::Drawing::Color::Transparent;
+			this->pictureBox2->ErrorImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.ErrorImage")));
+			this->pictureBox2->ImageLocation = L"C:\\Mis programas\\Proyecto-Programaci-n-I-main\\imagenes\\productos\\accesorios";
 			this->pictureBox2->Location = System::Drawing::Point(18, 3);
 			this->pictureBox2->Name = L"pictureBox2";
 			this->pictureBox2->Size = System::Drawing::Size(161, 114);
+			this->pictureBox2->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox2->TabIndex = 7;
 			this->pictureBox2->TabStop = false;
 			// 
@@ -251,9 +260,9 @@ namespace appcompra {
 			this->label2->ForeColor = System::Drawing::Color::White;
 			this->label2->Location = System::Drawing::Point(25, 126);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(155, 76);
+			this->label2->Size = System::Drawing::Size(138, 76);
 			this->label2->TabIndex = 10;
-			this->label2->Text = L"Televisor Samsung\r\n      85\' 4K UHD\r\n\r\n    Precio: Q14,000";
+			this->label2->Text = L"      Audifonos \r\nXTECH XTH-356 \r\n\r\nPrecio: Q104.00";
 			// 
 			// panel4
 			// 
@@ -289,16 +298,19 @@ namespace appcompra {
 			this->label4->ForeColor = System::Drawing::Color::White;
 			this->label4->Location = System::Drawing::Point(22, 128);
 			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(155, 76);
+			this->label4->Size = System::Drawing::Size(176, 76);
 			this->label4->TabIndex = 14;
-			this->label4->Text = L"Televisor Samsung\r\n      85\' 4K UHD\r\n\r\n    Precio: Q14,000";
+			this->label4->Text = L"TECLADO K55 RGB P\r\n      RO ESPANOL \r\n\r\nPrecio: Q672.00";
 			// 
 			// pictureBox4
 			// 
 			this->pictureBox4->BackColor = System::Drawing::Color::Transparent;
+			this->pictureBox4->ErrorImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox4.ErrorImage")));
+			this->pictureBox4->ImageLocation = L"C:\\Mis programas\\Proyecto-Programaci-n-I-main\\imagenes\\productos\\accesorios";
 			this->pictureBox4->Location = System::Drawing::Point(19, 3);
 			this->pictureBox4->Name = L"pictureBox4";
 			this->pictureBox4->Size = System::Drawing::Size(161, 114);
+			this->pictureBox4->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox4->TabIndex = 9;
 			this->pictureBox4->TabStop = false;
 			// 
@@ -330,9 +342,12 @@ namespace appcompra {
 			// pictureBox5
 			// 
 			this->pictureBox5->BackColor = System::Drawing::Color::Transparent;
+			this->pictureBox5->ErrorImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox5.ErrorImage")));
+			this->pictureBox5->ImageLocation = L"C:\\Mis programas\\Proyecto-Programaci-n-I-main\\imagenes\\productos\\accesorios";
 			this->pictureBox5->Location = System::Drawing::Point(18, 3);
 			this->pictureBox5->Name = L"pictureBox5";
 			this->pictureBox5->Size = System::Drawing::Size(161, 114);
+			this->pictureBox5->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox5->TabIndex = 10;
 			this->pictureBox5->TabStop = false;
 			// 
@@ -340,21 +355,22 @@ namespace appcompra {
 			// 
 			this->label5->AutoSize = true;
 			this->label5->BackColor = System::Drawing::Color::Transparent;
-			this->label5->Font = (gcnew System::Drawing::Font(L"Arial", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->label5->Font = (gcnew System::Drawing::Font(L"Arial", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label5->ForeColor = System::Drawing::Color::White;
 			this->label5->Location = System::Drawing::Point(22, 128);
 			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(155, 76);
+			this->label5->Size = System::Drawing::Size(163, 80);
 			this->label5->TabIndex = 16;
-			this->label5->Text = L"Televisor Samsung\r\n      85\' 4K UHD\r\n\r\n    Precio: Q14,000";
+			this->label5->Text = L"   MOUSE PAD HYPERX \r\n             FURY \r\n ULTRA RGB HX-MPFU-M\r\n\r\n      Precio: Q"
+				L"510.00";
 			// 
 			// panel6
 			// 
 			this->panel6->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"panel6.BackgroundImage")));
 			this->panel6->Controls->Add(this->button6);
-			this->panel6->Controls->Add(this->pictureBox6);
 			this->panel6->Controls->Add(this->label6);
+			this->panel6->Controls->Add(this->pictureBox6);
 			this->panel6->Location = System::Drawing::Point(543, 289);
 			this->panel6->Name = L"panel6";
 			this->panel6->Size = System::Drawing::Size(198, 253);
@@ -377,9 +393,12 @@ namespace appcompra {
 			// pictureBox6
 			// 
 			this->pictureBox6->BackColor = System::Drawing::Color::Transparent;
-			this->pictureBox6->Location = System::Drawing::Point(21, 3);
+			this->pictureBox6->ErrorImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox6.ErrorImage")));
+			this->pictureBox6->ImageLocation = L"C:\\Mis programas\\Proyecto-Programaci-n-I-main\\imagenes\\productos\\accesorios";
+			this->pictureBox6->Location = System::Drawing::Point(29, 3);
 			this->pictureBox6->Name = L"pictureBox6";
-			this->pictureBox6->Size = System::Drawing::Size(161, 114);
+			this->pictureBox6->Size = System::Drawing::Size(151, 114);
+			this->pictureBox6->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox6->TabIndex = 11;
 			this->pictureBox6->TabStop = false;
 			// 
@@ -387,14 +406,14 @@ namespace appcompra {
 			// 
 			this->label6->AutoSize = true;
 			this->label6->BackColor = System::Drawing::Color::Transparent;
-			this->label6->Font = (gcnew System::Drawing::Font(L"Arial", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->label6->Font = (gcnew System::Drawing::Font(L"Arial", 11.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label6->ForeColor = System::Drawing::Color::White;
 			this->label6->Location = System::Drawing::Point(25, 128);
 			this->label6->Name = L"label6";
-			this->label6->Size = System::Drawing::Size(155, 76);
+			this->label6->Size = System::Drawing::Size(165, 72);
 			this->label6->TabIndex = 18;
-			this->label6->Text = L"Televisor Samsung\r\n      85\' 4K UHD\r\n\r\n    Precio: Q14,000";
+			this->label6->Text = L"MOUSE RAZER VIPER\r\n 8KHz PARA GAMERS\r\n\r\n   Preciol: Q682.00";
 			// 
 			// button7
 			// 
@@ -413,7 +432,7 @@ namespace appcompra {
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
-			this->ClientSize = System::Drawing::Size(776, 649);
+			this->ClientSize = System::Drawing::Size(799, 690);
 			this->Controls->Add(this->button7);
 			this->Controls->Add(this->panel6);
 			this->Controls->Add(this->panel5);
