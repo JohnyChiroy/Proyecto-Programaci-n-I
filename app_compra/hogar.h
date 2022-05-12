@@ -439,6 +439,7 @@ namespace appcompra {
 			this->button7->TabIndex = 6;
 			this->button7->Text = L"Salir";
 			this->button7->UseVisualStyleBackColor = true;
+			this->button7->Click += gcnew System::EventHandler(this, &hogar::button7_Click);
 			// 
 			// hogar
 			// 
@@ -456,6 +457,7 @@ namespace appcompra {
 			this->Cursor = System::Windows::Forms::Cursors::Default;
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
 			this->Name = L"hogar";
+			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"hogar";
 			this->panel1->ResumeLayout(false);
 			this->panel1->PerformLayout();
@@ -481,5 +483,8 @@ namespace appcompra {
 #pragma endregion
 	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
+private: System::Void button7_Click(System::Object^ sender, System::EventArgs^ e) {
+	Close();
+}
 };
 }

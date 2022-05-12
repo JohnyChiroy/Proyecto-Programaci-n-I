@@ -1,4 +1,10 @@
 #pragma once
+#include "electronicos.h"
+#include "hogar.h"
+#include "cocina.h"
+#include "accesorios.h"
+#include "herramientas.h"
+#include "utilesescolares.h"
 
 namespace appcompra {
 
@@ -125,6 +131,7 @@ namespace appcompra {
 			this->button6->TabIndex = 6;
 			this->button6->Text = L"Utiles Escolares";
 			this->button6->UseVisualStyleBackColor = true;
+			this->button6->Click += gcnew System::EventHandler(this, &Compras::button6_Click);
 			// 
 			// button1
 			// 
@@ -140,6 +147,7 @@ namespace appcompra {
 			this->button1->TabIndex = 1;
 			this->button1->Text = L"Electronicos";
 			this->button1->UseVisualStyleBackColor = false;
+			this->button1->Click += gcnew System::EventHandler(this, &Compras::button1_Click);
 			// 
 			// button5
 			// 
@@ -154,6 +162,7 @@ namespace appcompra {
 			this->button5->TabIndex = 5;
 			this->button5->Text = L"Hogar";
 			this->button5->UseVisualStyleBackColor = true;
+			this->button5->Click += gcnew System::EventHandler(this, &Compras::button5_Click);
 			// 
 			// button4
 			// 
@@ -168,6 +177,7 @@ namespace appcompra {
 			this->button4->TabIndex = 4;
 			this->button4->Text = L"Cocina";
 			this->button4->UseVisualStyleBackColor = true;
+			this->button4->Click += gcnew System::EventHandler(this, &Compras::button4_Click);
 			// 
 			// button3
 			// 
@@ -182,6 +192,7 @@ namespace appcompra {
 			this->button3->TabIndex = 3;
 			this->button3->Text = L"Accesorios";
 			this->button3->UseVisualStyleBackColor = true;
+			this->button3->Click += gcnew System::EventHandler(this, &Compras::button3_Click);
 			// 
 			// button2
 			// 
@@ -241,6 +252,7 @@ namespace appcompra {
 			this->ClientSize = System::Drawing::Size(797, 506);
 			this->Controls->Add(this->panel2);
 			this->Controls->Add(this->panel1);
+			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
 			this->Name = L"Compras";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"Compras";
@@ -252,13 +264,36 @@ namespace appcompra {
 
 		}
 #pragma endregion
-	private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
-	}
 
 private: System::Void button7_Click(System::Object^ sender, System::EventArgs^ e) {
 	Close();
 }
 private: System::Void pictureBox1_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+	   //Cambio de Forms
+private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+	appcompra::electronicos^ comp = gcnew appcompra::electronicos();
+	comp->Show();
+}
+private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e) {
+	appcompra::hogar^ comp = gcnew appcompra::hogar();
+	comp->Show();
+}
+private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e) {
+	appcompra::cocina^ comp = gcnew appcompra::cocina();
+	comp->Show();
+}
+private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
+	appcompra::accesorios^ comp = gcnew appcompra::accesorios();
+	comp->Show();
+}
+private: System::Void button6_Click(System::Object^ sender, System::EventArgs^ e) {
+	appcompra::utilesescolares^ comp = gcnew appcompra::utilesescolares();
+	comp->Show();
+}
+private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
+		   appcompra::herramientas^ comp = gcnew appcompra::herramientas();
+		   comp->Show();
 }
 };
 }

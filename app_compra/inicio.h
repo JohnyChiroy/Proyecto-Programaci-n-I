@@ -48,6 +48,7 @@ namespace appcompra {
 	private: System::Windows::Forms::Button^ btingresar;
 
 	private: System::Windows::Forms::Label^ label3;
+	private: System::Windows::Forms::Button^ button1;
 
 
 
@@ -82,6 +83,7 @@ namespace appcompra {
 			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->listView1 = (gcnew System::Windows::Forms::ListView());
+			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->panel1->SuspendLayout();
 			this->panel4->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
@@ -101,6 +103,7 @@ namespace appcompra {
 			// panel4
 			// 
 			this->panel4->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"panel4.BackgroundImage")));
+			this->panel4->Controls->Add(this->button1);
 			this->panel4->Controls->Add(this->label3);
 			this->panel4->Controls->Add(this->btingresar);
 			this->panel4->Controls->Add(this->label2);
@@ -188,13 +191,28 @@ namespace appcompra {
 			this->listView1->TabIndex = 0;
 			this->listView1->UseCompatibleStateImageBehavior = false;
 			// 
+			// button1
+			// 
+			this->button1->BackColor = System::Drawing::Color::Transparent;
+			this->button1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button1.BackgroundImage")));
+			this->button1->Font = (gcnew System::Drawing::Font(L"Arial Narrow", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->button1->ForeColor = System::Drawing::Color::White;
+			this->button1->Location = System::Drawing::Point(665, 414);
+			this->button1->Name = L"button1";
+			this->button1->Size = System::Drawing::Size(97, 33);
+			this->button1->TabIndex = 4;
+			this->button1->Text = L"Salir";
+			this->button1->UseVisualStyleBackColor = false;
+			this->button1->Click += gcnew System::EventHandler(this, &inicio::button1_Click);
+			// 
 			// inicio
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(797, 506);
 			this->Controls->Add(this->panel1);
-			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedSingle;
+			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
 			this->Name = L"inicio";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"inicio";
@@ -216,6 +234,9 @@ private: System::Void btingresar_Click(System::Object^ sender, System::EventArgs
 private: System::Void pictureBox1_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void panel4_Paint(System::Object^ sender, System::Windows::Forms::PaintEventArgs^ e) {
+}
+private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+	Close();
 }
 };
 }

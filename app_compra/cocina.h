@@ -447,6 +447,7 @@ namespace appcompra {
 			this->button7->TabIndex = 6;
 			this->button7->Text = L"Salir";
 			this->button7->UseVisualStyleBackColor = true;
+			this->button7->Click += gcnew System::EventHandler(this, &cocina::button7_Click);
 			// 
 			// cocina
 			// 
@@ -463,6 +464,7 @@ namespace appcompra {
 			this->Controls->Add(this->panel1);
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
 			this->Name = L"cocina";
+			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"cocina";
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(pictureBox4))->EndInit();
 			this->panel1->ResumeLayout(false);
@@ -495,6 +497,9 @@ private: System::Void label1_Click(System::Object^ sender, System::EventArgs^ e)
 private: System::Void pictureBox1_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void label3_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void button7_Click(System::Object^ sender, System::EventArgs^ e) {
+	Close();
 }
 };
 }

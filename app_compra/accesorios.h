@@ -429,6 +429,7 @@ namespace appcompra {
 			this->button7->TabIndex = 6;
 			this->button7->Text = L"Salir";
 			this->button7->UseVisualStyleBackColor = true;
+			this->button7->Click += gcnew System::EventHandler(this, &accesorios::button7_Click);
 			// 
 			// accesorios
 			// 
@@ -445,6 +446,7 @@ namespace appcompra {
 			this->Controls->Add(this->panel1);
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
 			this->Name = L"accesorios";
+			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"accesorios";
 			this->Load += gcnew System::EventHandler(this, &accesorios::accesorios_Load);
 			this->panel1->ResumeLayout(false);
@@ -471,5 +473,8 @@ namespace appcompra {
 #pragma endregion
 	private: System::Void accesorios_Load(System::Object^ sender, System::EventArgs^ e) {
 	}
-	};
+	private: System::Void button7_Click(System::Object^ sender, System::EventArgs^ e) {
+		Close();
+	}
+};
 }

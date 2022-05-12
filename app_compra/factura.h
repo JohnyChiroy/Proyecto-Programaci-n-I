@@ -93,6 +93,7 @@ namespace appcompra {
 		/// </summary>
 		void InitializeComponent(void)
 		{
+			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(factura::typeid));
 			this->listView1 = (gcnew System::Windows::Forms::ListView());
 			this->columnHeader1 = (gcnew System::Windows::Forms::ColumnHeader());
 			this->columnHeader2 = (gcnew System::Windows::Forms::ColumnHeader());
@@ -127,7 +128,7 @@ namespace appcompra {
 					this->columnHeader3, this->columnHeader4, this->columnHeader5, this->columnHeader6, this->columnHeader7
 			});
 			this->listView1->HideSelection = false;
-			this->listView1->Location = System::Drawing::Point(429, 133);
+			this->listView1->Location = System::Drawing::Point(414, 123);
 			this->listView1->Name = L"listView1";
 			this->listView1->Size = System::Drawing::Size(459, 216);
 			this->listView1->TabIndex = 0;
@@ -319,6 +320,7 @@ namespace appcompra {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
 			this->ClientSize = System::Drawing::Size(900, 543);
 			this->Controls->Add(this->button2);
 			this->Controls->Add(this->button1);
@@ -339,6 +341,7 @@ namespace appcompra {
 			this->Controls->Add(this->label1);
 			this->Controls->Add(this->listView1);
 			this->Name = L"factura";
+			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"factura";
 			this->Load += gcnew System::EventHandler(this, &factura::factura_Load);
 			this->ResumeLayout(false);

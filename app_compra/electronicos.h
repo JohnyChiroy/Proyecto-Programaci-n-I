@@ -146,6 +146,7 @@ namespace appcompra {
 			this->button7->TabIndex = 6;
 			this->button7->Text = L"Salir";
 			this->button7->UseVisualStyleBackColor = true;
+			this->button7->Click += gcnew System::EventHandler(this, &electronicos::button7_Click);
 			// 
 			// panel7
 			// 
@@ -461,6 +462,7 @@ namespace appcompra {
 			this->Controls->Add(this->panel1);
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
 			this->Name = L"electronicos";
+			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"electronicos";
 			this->panel1->ResumeLayout(false);
 			this->panel7->ResumeLayout(false);
@@ -494,6 +496,9 @@ private: System::Void label2_Click(System::Object^ sender, System::EventArgs^ e)
 private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 private: System::Void panel1_Paint(System::Object^ sender, System::Windows::Forms::PaintEventArgs^ e) {
+}
+private: System::Void button7_Click(System::Object^ sender, System::EventArgs^ e) {
+	Close();
 }
 };
 }

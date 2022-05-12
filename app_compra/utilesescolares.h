@@ -451,6 +451,7 @@ namespace appcompra {
 			this->button8->TabIndex = 7;
 			this->button8->Text = L"Salir";
 			this->button8->UseVisualStyleBackColor = true;
+			this->button8->Click += gcnew System::EventHandler(this, &utilesescolares::button8_Click);
 			// 
 			// utilesescolares
 			// 
@@ -468,6 +469,7 @@ namespace appcompra {
 			this->Controls->Add(this->panel1);
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
 			this->Name = L"utilesescolares";
+			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"utilesescolares";
 			this->Load += gcnew System::EventHandler(this, &utilesescolares::utilesescolares_Load);
 			this->panel1->ResumeLayout(false);
@@ -494,5 +496,8 @@ namespace appcompra {
 #pragma endregion
 	private: System::Void utilesescolares_Load(System::Object^ sender, System::EventArgs^ e) {
 	}
-	};
+	private: System::Void button8_Click(System::Object^ sender, System::EventArgs^ e) {
+		Close();
+	}
+};
 }
