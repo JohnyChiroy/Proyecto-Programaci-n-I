@@ -16,3 +16,15 @@ C:\Users\johnychiroy\source\repos\Proyecto-programacion1\app_compra\x64\Debug\ap
 C:\Users\johnychiroy\source\repos\Proyecto-programacion1\app_compra\x64\Debug\appcompra.cocina.resources
 C:\Users\johnychiroy\source\repos\Proyecto-programacion1\app_compra\x64\Debug\appcompra.herramientas.resources
 C:\Users\johnychiroy\source\repos\Proyecto-programacion1\app_compra\x64\Debug\appcompra.hogar.resources
+C:\Users\johnychiroy\source\repos\PrograI\app_compra\x64\Debug\app_compra.vcxproj.AssemblyReference.cache
+C:\Users\johnychiroy\source\repos\PrograI\app_compra\x64\Debug\app_compra.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\johnychiroy\source\repos\PrograI\app_compra\x64\Debug\appcompra.accesorios.resources
+C:\Users\johnychiroy\source\repos\PrograI\app_compra\x64\Debug\appcompra.cocina.resources
+C:\Users\johnychiroy\source\repos\PrograI\app_compra\x64\Debug\appcompra.Compras.resources
+C:\Users\johnychiroy\source\repos\PrograI\app_compra\x64\Debug\appcompra.electronicos.resources
+C:\Users\johnychiroy\source\repos\PrograI\app_compra\x64\Debug\appcompra.factura.resources
+C:\Users\johnychiroy\source\repos\PrograI\app_compra\x64\Debug\appcompra.herramientas.resources
+C:\Users\johnychiroy\source\repos\PrograI\app_compra\x64\Debug\appcompra.hogar.resources
+C:\Users\johnychiroy\source\repos\PrograI\app_compra\x64\Debug\appcompra.inicio.resources
+C:\Users\johnychiroy\source\repos\PrograI\app_compra\x64\Debug\appcompra.utilesescolares.resources
+C:\Users\johnychiroy\source\repos\PrograI\app_compra\x64\Debug\app_compra.vcxproj.GenerateResource.cache

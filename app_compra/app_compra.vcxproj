@@ -128,7 +128,6 @@
     <ClCompile Include="herramientas.cpp" />
     <ClCompile Include="hogar.cpp" />
     <ClCompile Include="inicio.cpp" />
-    <ClCompile Include="MyForm.cpp" />
     <ClCompile Include="utilesescolares.cpp" />
   </ItemGroup>
   <ItemGroup>

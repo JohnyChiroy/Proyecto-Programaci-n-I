@@ -145,12 +145,11 @@ namespace appcompra {
 			// 
 			this->label1->AutoSize = true;
 			this->label1->BackColor = System::Drawing::Color::Transparent;
-			this->label1->Font = (gcnew System::Drawing::Font(L"Arial", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
+			this->label1->Font = (gcnew System::Drawing::Font(L"Arial", 12, System::Drawing::FontStyle::Bold));
 			this->label1->ForeColor = System::Drawing::Color::White;
-			this->label1->Location = System::Drawing::Point(22, 126);
+			this->label1->Location = System::Drawing::Point(6, 120);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(151, 80);
+			this->label1->Size = System::Drawing::Size(189, 95);
 			this->label1->TabIndex = 17;
 			this->label1->Text = L"     MOTOSIERRA A \r\n        GASOLINA\r\n45CC 18 PLG - PRETUL\r\n\r\n    Precio: Q1,949."
 				L"00";
@@ -159,11 +158,12 @@ namespace appcompra {
 			// 
 			this->pictureBox1->BackColor = System::Drawing::Color::Transparent;
 			this->pictureBox1->ErrorImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.ErrorImage")));
-			this->pictureBox1->ImageLocation = L"C:\\Mis programas\\Proyecto-Programaci-n-I-main\\imagenes\\productos\\herramientas";
+			this->pictureBox1->ImageLocation = L"C:\\Users\\johnychiroy\\source\\repos\\PrograI\\imagenes\\productos\\herramientas\\4.png";
+			this->pictureBox1->InitialImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.InitialImage")));
 			this->pictureBox1->Location = System::Drawing::Point(19, 3);
 			this->pictureBox1->Name = L"pictureBox1";
 			this->pictureBox1->Size = System::Drawing::Size(161, 114);
-			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
 			this->pictureBox1->TabIndex = 9;
 			this->pictureBox1->TabStop = false;
 			// 
@@ -197,11 +197,12 @@ namespace appcompra {
 			// 
 			this->pictureBox2->BackColor = System::Drawing::Color::Transparent;
 			this->pictureBox2->ErrorImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.ErrorImage")));
-			this->pictureBox2->ImageLocation = L"C:\\Mis programas\\Proyecto-Programaci-n-I-main\\imagenes\\productos\\herramientas";
+			this->pictureBox2->ImageLocation = L"C:\\Users\\johnychiroy\\source\\repos\\PrograI\\imagenes\\productos\\herramientas\\3.png";
+			this->pictureBox2->InitialImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.InitialImage")));
 			this->pictureBox2->Location = System::Drawing::Point(19, 3);
 			this->pictureBox2->Name = L"pictureBox2";
 			this->pictureBox2->Size = System::Drawing::Size(161, 114);
-			this->pictureBox2->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox2->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
 			this->pictureBox2->TabIndex = 10;
 			this->pictureBox2->TabStop = false;
 			// 
@@ -209,15 +210,15 @@ namespace appcompra {
 			// 
 			this->label2->AutoSize = true;
 			this->label2->BackColor = System::Drawing::Color::Transparent;
-			this->label2->Font = (gcnew System::Drawing::Font(L"Arial", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->label2->ForeColor = System::Drawing::Color::White;
-			this->label2->Location = System::Drawing::Point(25, 126);
+			this->label2->Font = (gcnew System::Drawing::Font(L"Arial", 12, System::Drawing::FontStyle::Bold));
+			this->label2->ForeColor = System::Drawing::Color::Transparent;
+			this->label2->Location = System::Drawing::Point(2, 121);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(160, 64);
+			this->label2->Size = System::Drawing::Size(193, 95);
 			this->label2->TabIndex = 19;
-			this->label2->Text = L"       MOTOSIERRA \r\n      INALÁMBRICA \r\nESPADA DE 12 PLG 40V \r\n      Precio: Q2,9"
-				L"99";
+			this->label2->Text = L"       MOTOSIERRA \r\n      INALÁMBRICA \r\nESPADA DE 12PLG 40V \r\n\r\n      Precio: Q2,"
+				L"999";
+			this->label2->Click += gcnew System::EventHandler(this, &herramientas::label2_Click);
 			// 
 			// panel3
 			// 
@@ -249,11 +250,12 @@ namespace appcompra {
 			// 
 			this->pictureBox3->BackColor = System::Drawing::Color::Transparent;
 			this->pictureBox3->ErrorImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox3.ErrorImage")));
-			this->pictureBox3->ImageLocation = L"C:\\Mis programas\\Proyecto-Programaci-n-I-main\\imagenes\\productos\\herramientas";
+			this->pictureBox3->ImageLocation = L"C:\\Users\\johnychiroy\\source\\repos\\PrograI\\imagenes\\productos\\herramientas\\2.png";
+			this->pictureBox3->InitialImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox3.InitialImage")));
 			this->pictureBox3->Location = System::Drawing::Point(20, 3);
 			this->pictureBox3->Name = L"pictureBox3";
 			this->pictureBox3->Size = System::Drawing::Size(161, 114);
-			this->pictureBox3->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox3->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
 			this->pictureBox3->TabIndex = 11;
 			this->pictureBox3->TabStop = false;
 			// 
@@ -261,14 +263,13 @@ namespace appcompra {
 			// 
 			this->label3->AutoSize = true;
 			this->label3->BackColor = System::Drawing::Color::Transparent;
-			this->label3->Font = (gcnew System::Drawing::Font(L"Arial", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
+			this->label3->Font = (gcnew System::Drawing::Font(L"Arial", 12, System::Drawing::FontStyle::Bold));
 			this->label3->ForeColor = System::Drawing::Color::White;
-			this->label3->Location = System::Drawing::Point(25, 126);
+			this->label3->Location = System::Drawing::Point(29, 128);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(144, 57);
+			this->label3->Size = System::Drawing::Size(144, 76);
 			this->label3->TabIndex = 21;
-			this->label3->Text = L"  PALA REDONDA\r\n      SERIE KIDS\r\n    Precio: Q76.99";
+			this->label3->Text = L"  PALA REDONDA\r\n      SERIE KIDS\r\n\r\n    Precio: Q76.99";
 			// 
 			// panel4
 			// 
@@ -300,11 +301,12 @@ namespace appcompra {
 			// 
 			this->pictureBox4->BackColor = System::Drawing::Color::Transparent;
 			this->pictureBox4->ErrorImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox4.ErrorImage")));
-			this->pictureBox4->ImageLocation = L"C:\\Mis programas\\Proyecto-Programaci-n-I-main\\imagenes\\productos\\herramientas";
+			this->pictureBox4->ImageLocation = L"C:\\Users\\johnychiroy\\source\\repos\\PrograI\\imagenes\\productos\\herramientas\\1.png";
+			this->pictureBox4->InitialImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox4.InitialImage")));
 			this->pictureBox4->Location = System::Drawing::Point(19, 3);
 			this->pictureBox4->Name = L"pictureBox4";
 			this->pictureBox4->Size = System::Drawing::Size(161, 114);
-			this->pictureBox4->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox4->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
 			this->pictureBox4->TabIndex = 12;
 			this->pictureBox4->TabStop = false;
 			// 
@@ -312,14 +314,13 @@ namespace appcompra {
 			// 
 			this->label4->AutoSize = true;
 			this->label4->BackColor = System::Drawing::Color::Transparent;
-			this->label4->Font = (gcnew System::Drawing::Font(L"Arial", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
+			this->label4->Font = (gcnew System::Drawing::Font(L"Arial", 12, System::Drawing::FontStyle::Bold));
 			this->label4->ForeColor = System::Drawing::Color::White;
 			this->label4->Location = System::Drawing::Point(22, 128);
 			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(161, 57);
+			this->label4->Size = System::Drawing::Size(161, 76);
 			this->label4->TabIndex = 19;
-			this->label4->Text = L" MARTILLO DE UÑA\r\n     7 OZ - TRUPER\r\n    Precio: Q34.99";
+			this->label4->Text = L" MARTILLO DE UÑA\r\n     7 OZ - TRUPER\r\n\r\n    Precio: Q34.99";
 			// 
 			// panel5
 			// 
@@ -355,7 +356,7 @@ namespace appcompra {
 			this->pictureBox5->Location = System::Drawing::Point(19, 3);
 			this->pictureBox5->Name = L"pictureBox5";
 			this->pictureBox5->Size = System::Drawing::Size(161, 114);
-			this->pictureBox5->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox5->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
 			this->pictureBox5->TabIndex = 13;
 			this->pictureBox5->TabStop = false;
 			// 
@@ -363,14 +364,13 @@ namespace appcompra {
 			// 
 			this->label5->AutoSize = true;
 			this->label5->BackColor = System::Drawing::Color::Transparent;
-			this->label5->Font = (gcnew System::Drawing::Font(L"Arial", 11.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
+			this->label5->Font = (gcnew System::Drawing::Font(L"Arial", 12, System::Drawing::FontStyle::Bold));
 			this->label5->ForeColor = System::Drawing::Color::White;
-			this->label5->Location = System::Drawing::Point(25, 128);
+			this->label5->Location = System::Drawing::Point(21, 120);
 			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(155, 72);
+			this->label5->Size = System::Drawing::Size(149, 95);
 			this->label5->TabIndex = 21;
-			this->label5->Text = L"       ALICATE DE \r\n     ELECTRICISTA \r\n        DE 7 PLG\r\n   Precio: QPor: 67.99";
+			this->label5->Text = L"       ALICATE DE \r\n     ELECTRICISTA \r\n        DE 7 PLG\r\n\r\n   Precio: Q67.99";
 			// 
 			// panel6
 			// 
@@ -406,7 +406,7 @@ namespace appcompra {
 			this->pictureBox6->Location = System::Drawing::Point(20, 3);
 			this->pictureBox6->Name = L"pictureBox6";
 			this->pictureBox6->Size = System::Drawing::Size(161, 114);
-			this->pictureBox6->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox6->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
 			this->pictureBox6->TabIndex = 14;
 			this->pictureBox6->TabStop = false;
 			// 
@@ -414,14 +414,13 @@ namespace appcompra {
 			// 
 			this->label6->AutoSize = true;
 			this->label6->BackColor = System::Drawing::Color::Transparent;
-			this->label6->Font = (gcnew System::Drawing::Font(L"Arial", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
+			this->label6->Font = (gcnew System::Drawing::Font(L"Arial", 12, System::Drawing::FontStyle::Bold));
 			this->label6->ForeColor = System::Drawing::Color::White;
-			this->label6->Location = System::Drawing::Point(25, 128);
+			this->label6->Location = System::Drawing::Point(27, 128);
 			this->label6->Name = L"label6";
-			this->label6->Size = System::Drawing::Size(137, 57);
+			this->label6->Size = System::Drawing::Size(137, 76);
 			this->label6->TabIndex = 23;
-			this->label6->Text = L" CINTA MÉTRICA\r\n           8 MTS \r\n    Precio: Q94.99";
+			this->label6->Text = L" CINTA MÉTRICA\r\n           8 MTS \r\n\r\n    Precio: Q94.99";
 			// 
 			// button1
 			// 
@@ -473,5 +472,7 @@ namespace appcompra {
 
 		}
 #pragma endregion
-	};
+	private: System::Void label2_Click(System::Object^ sender, System::EventArgs^ e) {
+	}
+};
 }

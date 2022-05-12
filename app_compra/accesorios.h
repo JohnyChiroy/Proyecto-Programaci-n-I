@@ -97,8 +97,8 @@ namespace appcompra {
 			this->label5 = (gcnew System::Windows::Forms::Label());
 			this->panel6 = (gcnew System::Windows::Forms::Panel());
 			this->button6 = (gcnew System::Windows::Forms::Button());
-			this->pictureBox6 = (gcnew System::Windows::Forms::PictureBox());
 			this->label6 = (gcnew System::Windows::Forms::Label());
+			this->pictureBox6 = (gcnew System::Windows::Forms::PictureBox());
 			this->button7 = (gcnew System::Windows::Forms::Button());
 			this->panel1->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
@@ -205,12 +205,11 @@ namespace appcompra {
 			// 
 			this->label3->AutoSize = true;
 			this->label3->BackColor = System::Drawing::Color::Transparent;
-			this->label3->Font = (gcnew System::Drawing::Font(L"Arial", 11.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
+			this->label3->Font = (gcnew System::Drawing::Font(L"Arial", 12, System::Drawing::FontStyle::Bold));
 			this->label3->ForeColor = System::Drawing::Color::White;
-			this->label3->Location = System::Drawing::Point(25, 126);
+			this->label3->Location = System::Drawing::Point(15, 126);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(166, 54);
+			this->label3->Size = System::Drawing::Size(175, 57);
 			this->label3->TabIndex = 12;
 			this->label3->Text = L"MICROFONO PRIMUS\r\n\r\n   Precio: Q755.00";
 			// 
@@ -355,12 +354,11 @@ namespace appcompra {
 			// 
 			this->label5->AutoSize = true;
 			this->label5->BackColor = System::Drawing::Color::Transparent;
-			this->label5->Font = (gcnew System::Drawing::Font(L"Arial", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
+			this->label5->Font = (gcnew System::Drawing::Font(L"Arial", 12, System::Drawing::FontStyle::Bold));
 			this->label5->ForeColor = System::Drawing::Color::White;
-			this->label5->Location = System::Drawing::Point(22, 128);
+			this->label5->Location = System::Drawing::Point(-2, 122);
 			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(163, 80);
+			this->label5->Size = System::Drawing::Size(202, 95);
 			this->label5->TabIndex = 16;
 			this->label5->Text = L"   MOUSE PAD HYPERX \r\n             FURY \r\n ULTRA RGB HX-MPFU-M\r\n\r\n      Precio: Q"
 				L"510.00";
@@ -390,6 +388,18 @@ namespace appcompra {
 			this->button6->Text = L"Comprar";
 			this->button6->UseVisualStyleBackColor = true;
 			// 
+			// label6
+			// 
+			this->label6->AutoSize = true;
+			this->label6->BackColor = System::Drawing::Color::Transparent;
+			this->label6->Font = (gcnew System::Drawing::Font(L"Arial", 12, System::Drawing::FontStyle::Bold));
+			this->label6->ForeColor = System::Drawing::Color::White;
+			this->label6->Location = System::Drawing::Point(11, 128);
+			this->label6->Name = L"label6";
+			this->label6->Size = System::Drawing::Size(180, 76);
+			this->label6->TabIndex = 18;
+			this->label6->Text = L"MOUSE RAZER VIPER\r\n 8KHz PARA GAMERS\r\n\r\n   Preciol: Q682.00";
+			// 
 			// pictureBox6
 			// 
 			this->pictureBox6->BackColor = System::Drawing::Color::Transparent;
@@ -401,19 +411,6 @@ namespace appcompra {
 			this->pictureBox6->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox6->TabIndex = 11;
 			this->pictureBox6->TabStop = false;
-			// 
-			// label6
-			// 
-			this->label6->AutoSize = true;
-			this->label6->BackColor = System::Drawing::Color::Transparent;
-			this->label6->Font = (gcnew System::Drawing::Font(L"Arial", 11.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->label6->ForeColor = System::Drawing::Color::White;
-			this->label6->Location = System::Drawing::Point(25, 128);
-			this->label6->Name = L"label6";
-			this->label6->Size = System::Drawing::Size(165, 72);
-			this->label6->TabIndex = 18;
-			this->label6->Text = L"MOUSE RAZER VIPER\r\n 8KHz PARA GAMERS\r\n\r\n   Preciol: Q682.00";
 			// 
 			// button7
 			// 
