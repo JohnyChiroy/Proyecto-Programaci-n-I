@@ -138,6 +138,7 @@ namespace appcompra {
 			this->button1->TabIndex = 16;
 			this->button1->Text = L"Comprar";
 			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Click += gcnew System::EventHandler(this, &hogar::button1_Click);
 			// 
 			// label1
 			// 
@@ -157,7 +158,6 @@ namespace appcompra {
 			this->pictureBox1->BackColor = System::Drawing::Color::Transparent;
 			this->pictureBox1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.BackgroundImage")));
 			this->pictureBox1->ErrorImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.ErrorImage")));
-			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
 			this->pictureBox1->ImageLocation = L"C:\\Users\\johnychiroy\\source\\repos\\PrograI\\imagenes\\productos\\hogar\\3.png";
 			this->pictureBox1->InitialImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.InitialImage")));
 			this->pictureBox1->Location = System::Drawing::Point(19, 3);
@@ -210,7 +210,6 @@ namespace appcompra {
 			this->pictureBox2->BackColor = System::Drawing::Color::Transparent;
 			this->pictureBox2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.BackgroundImage")));
 			this->pictureBox2->ErrorImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.ErrorImage")));
-			this->pictureBox2->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.Image")));
 			this->pictureBox2->ImageLocation = L"C:\\Users\\johnychiroy\\source\\repos\\PrograI\\imagenes\\productos\\hogar\\4.png";
 			this->pictureBox2->InitialImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.InitialImage")));
 			this->pictureBox2->Location = System::Drawing::Point(20, 3);
@@ -263,7 +262,6 @@ namespace appcompra {
 			this->pictureBox3->BackColor = System::Drawing::Color::Transparent;
 			this->pictureBox3->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox3.BackgroundImage")));
 			this->pictureBox3->ErrorImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox3.ErrorImage")));
-			this->pictureBox3->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox3.Image")));
 			this->pictureBox3->ImageLocation = L"C:\\Users\\johnychiroy\\source\\repos\\PrograI\\imagenes\\productos\\hogar\\5.png";
 			this->pictureBox3->InitialImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox3.InitialImage")));
 			this->pictureBox3->Location = System::Drawing::Point(20, 3);
@@ -316,7 +314,6 @@ namespace appcompra {
 			this->pictureBox4->BackColor = System::Drawing::Color::Transparent;
 			this->pictureBox4->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox4.BackgroundImage")));
 			this->pictureBox4->ErrorImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox4.ErrorImage")));
-			this->pictureBox4->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox4.Image")));
 			this->pictureBox4->ImageLocation = L"C:\\Users\\johnychiroy\\source\\repos\\PrograI\\imagenes\\productos\\hogar\\6.png";
 			this->pictureBox4->InitialImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox4.InitialImage")));
 			this->pictureBox4->Location = System::Drawing::Point(19, 3);
@@ -369,7 +366,6 @@ namespace appcompra {
 			this->pictureBox5->BackColor = System::Drawing::Color::Transparent;
 			this->pictureBox5->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox5.BackgroundImage")));
 			this->pictureBox5->ErrorImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox5.ErrorImage")));
-			this->pictureBox5->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox5.Image")));
 			this->pictureBox5->ImageLocation = L"C:\\Users\\johnychiroy\\source\\repos\\PrograI\\imagenes\\productos\\hogar\\7.png";
 			this->pictureBox5->InitialImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox5.InitialImage")));
 			this->pictureBox5->Location = System::Drawing::Point(20, 3);
@@ -422,7 +418,6 @@ namespace appcompra {
 			this->pictureBox6->BackColor = System::Drawing::Color::Transparent;
 			this->pictureBox6->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox6.BackgroundImage")));
 			this->pictureBox6->ErrorImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox6.ErrorImage")));
-			this->pictureBox6->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox6.Image")));
 			this->pictureBox6->ImageLocation = L"C:\\Users\\johnychiroy\\source\\repos\\PrograI\\imagenes\\productos\\hogar\\9.png";
 			this->pictureBox6->InitialImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox6.InitialImage")));
 			this->pictureBox6->Location = System::Drawing::Point(19, 4);
@@ -484,5 +479,7 @@ namespace appcompra {
 
 		}
 #pragma endregion
-	};
+	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+	}
+};
 }

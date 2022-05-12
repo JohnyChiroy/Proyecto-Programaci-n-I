@@ -156,11 +156,12 @@ namespace appcompra {
 			// 
 			this->pictureBox1->BackColor = System::Drawing::Color::Transparent;
 			this->pictureBox1->ErrorImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.ErrorImage")));
-			this->pictureBox1->ImageLocation = L"C:\\Mis programas\\Proyecto-Programaci-n-I-main\\imagenes\\productos\\accesorios";
+			this->pictureBox1->ImageLocation = L"C:\\Users\\johnychiroy\\source\\repos\\PrograI\\imagenes\\productos\\accesorios\\1.png";
+			this->pictureBox1->InitialImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.InitialImage")));
 			this->pictureBox1->Location = System::Drawing::Point(19, 3);
 			this->pictureBox1->Name = L"pictureBox1";
 			this->pictureBox1->Size = System::Drawing::Size(161, 114);
-			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
 			this->pictureBox1->TabIndex = 6;
 			this->pictureBox1->TabStop = false;
 			// 
@@ -193,11 +194,12 @@ namespace appcompra {
 			// 
 			this->pictureBox3->BackColor = System::Drawing::Color::Transparent;
 			this->pictureBox3->ErrorImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox3.ErrorImage")));
-			this->pictureBox3->ImageLocation = L"C:\\Mis programas\\Proyecto-Programaci-n-I-main\\imagenes\\productos\\accesorios";
+			this->pictureBox3->ImageLocation = L"C:\\Users\\johnychiroy\\source\\repos\\PrograI\\imagenes\\productos\\accesorios\\3.png";
+			this->pictureBox3->InitialImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox3.InitialImage")));
 			this->pictureBox3->Location = System::Drawing::Point(21, 3);
 			this->pictureBox3->Name = L"pictureBox3";
 			this->pictureBox3->Size = System::Drawing::Size(161, 114);
-			this->pictureBox3->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox3->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
 			this->pictureBox3->TabIndex = 8;
 			this->pictureBox3->TabStop = false;
 			// 
@@ -242,11 +244,12 @@ namespace appcompra {
 			// 
 			this->pictureBox2->BackColor = System::Drawing::Color::Transparent;
 			this->pictureBox2->ErrorImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.ErrorImage")));
-			this->pictureBox2->ImageLocation = L"C:\\Mis programas\\Proyecto-Programaci-n-I-main\\imagenes\\productos\\accesorios";
+			this->pictureBox2->ImageLocation = L"C:\\Users\\johnychiroy\\source\\repos\\PrograI\\imagenes\\productos\\accesorios\\2.png";
+			this->pictureBox2->InitialImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.InitialImage")));
 			this->pictureBox2->Location = System::Drawing::Point(18, 3);
 			this->pictureBox2->Name = L"pictureBox2";
 			this->pictureBox2->Size = System::Drawing::Size(161, 114);
-			this->pictureBox2->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox2->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
 			this->pictureBox2->TabIndex = 7;
 			this->pictureBox2->TabStop = false;
 			// 
@@ -305,11 +308,12 @@ namespace appcompra {
 			// 
 			this->pictureBox4->BackColor = System::Drawing::Color::Transparent;
 			this->pictureBox4->ErrorImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox4.ErrorImage")));
-			this->pictureBox4->ImageLocation = L"C:\\Mis programas\\Proyecto-Programaci-n-I-main\\imagenes\\productos\\accesorios";
+			this->pictureBox4->ImageLocation = L"C:\\Users\\johnychiroy\\source\\repos\\PrograI\\imagenes\\productos\\accesorios\\4.png";
+			this->pictureBox4->InitialImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox4.InitialImage")));
 			this->pictureBox4->Location = System::Drawing::Point(19, 3);
 			this->pictureBox4->Name = L"pictureBox4";
 			this->pictureBox4->Size = System::Drawing::Size(161, 114);
-			this->pictureBox4->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox4->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
 			this->pictureBox4->TabIndex = 9;
 			this->pictureBox4->TabStop = false;
 			// 
@@ -342,11 +346,12 @@ namespace appcompra {
 			// 
 			this->pictureBox5->BackColor = System::Drawing::Color::Transparent;
 			this->pictureBox5->ErrorImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox5.ErrorImage")));
-			this->pictureBox5->ImageLocation = L"C:\\Mis programas\\Proyecto-Programaci-n-I-main\\imagenes\\productos\\accesorios";
+			this->pictureBox5->ImageLocation = L"C:\\Users\\johnychiroy\\source\\repos\\PrograI\\imagenes\\productos\\accesorios\\5.png";
+			this->pictureBox5->InitialImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox5.InitialImage")));
 			this->pictureBox5->Location = System::Drawing::Point(18, 3);
 			this->pictureBox5->Name = L"pictureBox5";
 			this->pictureBox5->Size = System::Drawing::Size(161, 114);
-			this->pictureBox5->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox5->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
 			this->pictureBox5->TabIndex = 10;
 			this->pictureBox5->TabStop = false;
 			// 
@@ -356,7 +361,7 @@ namespace appcompra {
 			this->label5->BackColor = System::Drawing::Color::Transparent;
 			this->label5->Font = (gcnew System::Drawing::Font(L"Arial", 12, System::Drawing::FontStyle::Bold));
 			this->label5->ForeColor = System::Drawing::Color::White;
-			this->label5->Location = System::Drawing::Point(-2, 122);
+			this->label5->Location = System::Drawing::Point(-2, 119);
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(202, 95);
 			this->label5->TabIndex = 16;
@@ -404,11 +409,12 @@ namespace appcompra {
 			// 
 			this->pictureBox6->BackColor = System::Drawing::Color::Transparent;
 			this->pictureBox6->ErrorImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox6.ErrorImage")));
-			this->pictureBox6->ImageLocation = L"C:\\Mis programas\\Proyecto-Programaci-n-I-main\\imagenes\\productos\\accesorios";
+			this->pictureBox6->ImageLocation = L"C:\\Users\\johnychiroy\\source\\repos\\PrograI\\imagenes\\productos\\accesorios\\6.png";
+			this->pictureBox6->InitialImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox6.InitialImage")));
 			this->pictureBox6->Location = System::Drawing::Point(29, 3);
 			this->pictureBox6->Name = L"pictureBox6";
 			this->pictureBox6->Size = System::Drawing::Size(151, 114);
-			this->pictureBox6->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox6->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
 			this->pictureBox6->TabIndex = 11;
 			this->pictureBox6->TabStop = false;
 			// 

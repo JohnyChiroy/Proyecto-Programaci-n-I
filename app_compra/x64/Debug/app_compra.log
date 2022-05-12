@@ -1,14 +1,9 @@
-﻿  accesorios.cpp
-  cocina.cpp
-  Compras.cpp
-  electronicos.cpp
-  factura.cpp
-C:\Users\johnychiroy\source\repos\PrograI\app_compra\conexion.h(20,26): warning C4129: 'S': secuencia de escape de carácter no reconocida
+﻿  Compras.cpp
+  accesorios.cpp
   herramientas.cpp
   hogar.cpp
   inicio.cpp
   utilesescolares.cpp
-  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
   Generando código...
   accesorios.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
   app_compra.vcxproj -> C:\Users\johnychiroy\source\repos\PrograI\x64\Debug\app_compra.exe

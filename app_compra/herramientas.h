@@ -140,6 +140,7 @@ namespace appcompra {
 			this->button2->TabIndex = 18;
 			this->button2->Text = L"Comprar";
 			this->button2->UseVisualStyleBackColor = true;
+			this->button2->Click += gcnew System::EventHandler(this, &herramientas::button2_Click);
 			// 
 			// label1
 			// 
@@ -192,6 +193,7 @@ namespace appcompra {
 			this->button3->TabIndex = 20;
 			this->button3->Text = L"Comprar";
 			this->button3->UseVisualStyleBackColor = true;
+			this->button3->Click += gcnew System::EventHandler(this, &herramientas::button3_Click);
 			// 
 			// pictureBox2
 			// 
@@ -352,7 +354,8 @@ namespace appcompra {
 			// 
 			this->pictureBox5->BackColor = System::Drawing::Color::Transparent;
 			this->pictureBox5->ErrorImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox5.ErrorImage")));
-			this->pictureBox5->ImageLocation = L"C:\\Mis programas\\Proyecto-Programaci-n-I-main\\imagenes\\productos\\herramientas";
+			this->pictureBox5->ImageLocation = L"C:\\Users\\johnychiroy\\source\\repos\\PrograI\\imagenes\\productos\\herramientas\\5.png";
+			this->pictureBox5->InitialImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox5.InitialImage")));
 			this->pictureBox5->Location = System::Drawing::Point(19, 3);
 			this->pictureBox5->Name = L"pictureBox5";
 			this->pictureBox5->Size = System::Drawing::Size(161, 114);
@@ -402,7 +405,8 @@ namespace appcompra {
 			// 
 			this->pictureBox6->BackColor = System::Drawing::Color::Transparent;
 			this->pictureBox6->ErrorImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox6.ErrorImage")));
-			this->pictureBox6->ImageLocation = L"C:\\Mis programas\\Proyecto-Programaci-n-I-main\\imagenes\\productos\\herramientas";
+			this->pictureBox6->ImageLocation = L"C:\\Users\\johnychiroy\\source\\repos\\PrograI\\imagenes\\productos\\herramientas\\6.png";
+			this->pictureBox6->InitialImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox6.InitialImage")));
 			this->pictureBox6->Location = System::Drawing::Point(20, 3);
 			this->pictureBox6->Name = L"pictureBox6";
 			this->pictureBox6->Size = System::Drawing::Size(161, 114);
@@ -474,5 +478,9 @@ namespace appcompra {
 #pragma endregion
 	private: System::Void label2_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
+private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
+}
 };
 }
